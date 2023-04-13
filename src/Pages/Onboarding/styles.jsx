@@ -53,6 +53,7 @@ export const Container = styled.div`
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  position: relative;
 `;
 
 export const GreenCircle = styled.div`
@@ -95,24 +96,23 @@ export const Triangle = styled.div`
   animation: ${floatTriangle} 4s ease-in-out infinite;
 `;
 
-export const GlassNavBar = styled.div`
+export const StartButton = styled.button`
   display: flex;
-  flex-direction: column;
-  padding: 1.6rem;
   align-items: center;
-  height: 10vh;
-  width: 89vw;
+  justify-content: center;
+  height: 6rem;
+  width: 6rem;
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(230, 230, 230, 0.218);
+  box-shadow: 0px 4px 24px 2px rgba(0, 0, 0, 0.2);
   background: linear-gradient(
     172.79deg,
     rgba(255, 255, 255, 0.05) 4.99%,
     rgba(255, 255, 255, 0.2) 92.05%
   );
-  box-shadow: 0px 4px 24px 2px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(18px);
-  border-radius: 2rem;
+  border-radius: 50%;
   position: absolute;
-  bottom: 1.8rem;
-  transform: translate(20px);
-  border: 1px solid rgba(230, 230, 230, 0.218);
-  color: ${colors.lightPrimaryText};
+  bottom: 10rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 `;

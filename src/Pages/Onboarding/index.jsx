@@ -1,14 +1,27 @@
 import React from "react";
-import { Container, GreenCircle, Diamond, Triangle, GlassNavBar } from "./styles";
-import OnboardingGlass from "../../Components/OnBoardingGlass/OnboardingGlass";
+import {
+  Container,
+  GreenCircle,
+  Diamond,
+  Triangle,
+  StartButton,
+} from "./styles";
+import OnboardingScreen from "../../Components/OnboardingScreen/OnboardingScreen";
+import arrowRight from "../../Assets/arrow-right.svg";
+import { GlassNavBar } from "../../Components/NavBar/styles";
+
 const Onboarding = () => {
   return (
     <Container>
       <GreenCircle />
       <Diamond />
       <Triangle />
-      <OnboardingGlass />
-      <GlassNavBar/>
+      <OnboardingScreen />
+      <StartButton>
+        {" "}
+        <img src={arrowRight} alt="start arrow" />
+      </StartButton>
+      <GlassNavBar />
     </Container>
   );
 };

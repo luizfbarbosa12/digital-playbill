@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Glass,
   Welcome,
   ThankYou,
   GuideText,
@@ -14,8 +13,9 @@ import chat from "../../Assets/chat.svg";
 import mic from "../../Assets/mic.svg";
 import playlist from "../../Assets/playlist.svg";
 import translate from "../../Assets/translate.svg";
+import GlassBackground from "../GlassBackground/GlassBackground";
 
-const OnboardingGlass = () => {
+const OnboardingScreen = () => {
   const icons = [
     { icon: musicNote, text: "Músicas" },
     { icon: translate, text: "Traduções" },
@@ -25,7 +25,7 @@ const OnboardingGlass = () => {
   ];
 
   return (
-    <Glass>
+    <GlassBackground>
       <Welcome>Boas vindas!</Welcome>
       <ThankYou>Obrigado por apoiar um artista local!</ThankYou>
       <GuideTextArea>
@@ -46,8 +46,8 @@ const OnboardingGlass = () => {
           })}
         </IconsWrapper>
       </GuideTextArea>
-    </Glass>
+    </GlassBackground>
   );
 };
 
-export default OnboardingGlass;
+export default OnboardingScreen;
