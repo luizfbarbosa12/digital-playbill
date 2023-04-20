@@ -13,11 +13,11 @@ import {
 } from "./styles";
 import songs from "../../data/songs.json";
 import GlassBackground from "../../Components/GlassBackground/GlassBackground";
-import GlassNavBar from "../../Components/NavBar/NavBar";
+
 const Setlist = () => {
   return (
     <>
-      <GlassBackground height={"79.5vh"} padding={"0"}>
+      <GlassBackground height={"74vh"} padding={"0"}>
         <Hero src={luiz} alt="Vocalista: Luiz" />
         <Container>
           <Title>

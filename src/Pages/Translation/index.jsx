@@ -5,8 +5,8 @@ import { Hero } from "../Setlist/styles";
 const Translation = () => {
 
   return (
-    <GlassBackground height={"79.5vh"} padding={"0"}>
-      <Hero src={vitor} alt="Vocalista: Luiz" />
+    <GlassBackground height={"74vh"} padding={"0"}>
+      <Hero src={vitor} alt="Baterista Vitor" />
     </GlassBackground>
   );
 };

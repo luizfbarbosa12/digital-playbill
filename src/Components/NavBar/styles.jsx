@@ -3,11 +3,11 @@ import { colors } from "../../colors/colors";
 
 export const GlassNavBar = styled.div`
   display: flex;
-  padding: 1.6rem;
+  padding: 1rem;
   align-items: center;
   justify-content: space-around;
-  height: 10vh;
-  width: 89vw;
+  height: 6vh;
+  width: 90vw;
   background: linear-gradient(
     172.79deg,
     rgba(255, 255, 255, 0.05) 4.99%,
@@ -22,7 +22,9 @@ export const GlassNavBar = styled.div`
   border: 1px solid rgba(230, 230, 230, 0.218);
 `;
 
-export const Icons = styled.img`
+export const Icons = styled.div`
+  & > svg > path {
+    fill: ${colors.lightPrimaryText};
+  }
   height: 2.4rem;
-
-`
+`;

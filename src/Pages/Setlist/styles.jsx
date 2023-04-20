@@ -2,9 +2,10 @@ import styled from "styled-components";
 import { colors } from "../../colors/colors";
 
 export const Hero = styled.img`
-  height: 19.8rem;
-  border-radius: 4.2rem 4.2rem 0 0;
+  height: 14rem;
+  border-radius: 2.5rem 2.5rem 0 0;
   width: 100%;
+  object-fit: cover;
 `;
 
 export const Container = styled.div`
@@ -20,7 +21,7 @@ export const QuestionMark = styled.span`
   color: ${colors.primaryPink};
 `;
 export const SongsList = styled.ul`
-  height: 30rem;
+  height: 28rem;
   list-style-type: none;
   overflow-y: scroll;
 
