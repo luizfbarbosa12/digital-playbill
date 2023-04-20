@@ -6,7 +6,7 @@ export const Glass = styled.div`
   flex-direction: column;
   padding: ${(props) => props.padding || '1.6rem'};;
   align-items: center;
-  height: ${(props) => props.height || '70vh'};
+  min-height: ${(props) => props.height || '70vh'};
   width: 89vw;
   background: linear-gradient(
     172.79deg,
@@ -17,7 +17,7 @@ export const Glass = styled.div`
   backdrop-filter: blur(18px);
   border-radius: 42px;
   position: absolute;
-  top: 1.8rem;
+  top: 0.8rem;
   right: 2.1rem;
   border: 1px solid rgba(230, 230, 230, 0.218);
   color: ${colors.lightPrimaryText};

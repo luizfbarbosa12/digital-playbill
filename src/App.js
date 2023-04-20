@@ -1,10 +1,10 @@
-import Onboarding from "./Pages/Onboarding";
-import Setlist from "./Pages/Setlist";
+import NavBar from './Components/NavBar/NavBar';
+import Router from './Router/Router';
 import {Background} from './app.styles'
 function App() {
   return <Background>
-   {/* <Onboarding/> */}
-   <Setlist/>
+   <Router/>
+   <NavBar/>
   </Background>;
 }
 

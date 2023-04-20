@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { colors } from "../../colors/colors";
+
 export const Hero = styled.img`
   height: 19.8rem;
   border-radius: 4.2rem 4.2rem 0 0;
@@ -7,7 +8,7 @@ export const Hero = styled.img`
 `;
 
 export const Container = styled.div`
-  padding: 1.6rem;
+  padding: 1.2rem;
 `;
 export const Title = styled.h1`
   font-size: 3.6rem;

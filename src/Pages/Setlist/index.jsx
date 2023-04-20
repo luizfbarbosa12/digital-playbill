@@ -17,7 +17,7 @@ import GlassNavBar from "../../Components/NavBar/NavBar";
 const Setlist = () => {
   return (
     <>
-      <GlassBackground height={"83vh"} padding={"0"}>
+      <GlassBackground height={"79.5vh"} padding={"0"}>
         <Hero src={luiz} alt="Vocalista: Luiz" />
         <Container>
           <Title>
@@ -36,7 +36,6 @@ const Setlist = () => {
           </SongsList>
         </Container>
       </GlassBackground>
-      <GlassNavBar />
     </>
   );
 };
