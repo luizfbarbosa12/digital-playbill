@@ -17,7 +17,7 @@ export const GlassNavBar = styled.div`
   backdrop-filter: blur(20px);
   border-radius: 2rem;
   position: absolute;
-  bottom: 1.8rem;
+  bottom: 1rem;
   transform: translate(20px);
   border: 1px solid rgba(230, 230, 230, 0.218);
 `;

@@ -10,7 +10,7 @@ const Router = () => {
       <Routes>
         <Route index element={<Onboarding/>} />
         <Route path="/setlist" element={<Setlist />} />
-        <Route path="/translation" element={<Translation />} />
+        <Route path="/translation/:id" element={<Translation />} />
       </Routes>
       <NavBar/>
     </BrowserRouter>

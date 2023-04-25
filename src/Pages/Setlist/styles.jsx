@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../colors/colors";
 
 export const Hero = styled.img`
-  height: 14rem;
+  height: 16.5rem;
   border-radius: 2.5rem 2.5rem 0 0;
   width: 100%;
   object-fit: cover;

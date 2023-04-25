@@ -1,10 +1,13 @@
 import React from "react";
 import { GlassNavBar, Icons } from "./styles";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { goToSetlist, goToTranslation } from "../../Router/coordinator";
 
 const NavBar = () => {
   const navigate = useNavigate()
+  const location = useLocation()
+
+  console.log(location.pathname.includes('/translation'))
   return (
     <GlassNavBar>
       <Icons onClick={() => goToSetlist(navigate)}>

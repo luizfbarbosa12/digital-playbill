@@ -13,8 +13,11 @@ import {
 } from "./styles";
 import songs from "../../data/songs.json";
 import GlassBackground from "../../Components/GlassBackground/GlassBackground";
+import { goToSpecificTranslation } from "../../Router/coordinator";
+import { useNavigate } from "react-router-dom";
 
 const Setlist = () => {
+  const navigate = useNavigate()
   return (
     <>
       <GlassBackground height={"74vh"} padding={"0"}>
@@ -26,7 +29,7 @@ const Setlist = () => {
           <SongsList>
             {songs?.map((item) => {
               return (
-                <Song key={item.song}>
+                <Song key={item.id} onClick={() => goToSpecificTranslation(navigate, item.id)}>
                   <SongLength>{item.length}</SongLength>
                   <Name>{item.song}</Name>
                   <Artist>{item.artist}</Artist>

@@ -1,19 +1,19 @@
 export const goToSetlist = (navigate) => {
-    navigate('./setlist')
+    navigate('/setlist')
 }
 
 export const goToTranslation = (navigate) => {
-    navigate('./translation')
+    navigate('/translation')
 }
 
-export const goToSpecificTranslation = (navigate, songName) => {
-    navigate(`./translations/${songName}`)
+export const goToSpecificTranslation = (navigate, id) => {
+    navigate(`/translation/${id}`)
 }
 
 export const goToPlaylists = (navigate) => {
-    navigate('./playlists')
+    navigate('/playlists')
 }
 
 export const goToArtists = (navigate) => {
-    navigate('./artists')
+    navigate('/artists')
 }

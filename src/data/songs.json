@@ -1,66 +1,38 @@
-[{
+[
+  {
+    "id": 1,
     "song": "Bad Religion",
     "length": "2:55",
     "artist": "Frank Ocean"
-},
-{
-    "song": "Youth",
-    "length": "4:13",
-    "artist": "Daughter"
-},
-{
+  },
+  { "id": 2, "song": "Youth", "length": "4:13", "artist": "Daughter" },
+  {
+    "id": 3,
     "song": "Everything Matters",
     "length": "3:34",
     "artist": "Aurora feat. Pomme"
-},
-{
-    "song": "Pink Moon",
-    "length": "6:51",
-    "artist": "Tash Sultana"
-},
-{
-    "song": "Movie",
-    "length": "5:57",
-    "artist": "Tom Misch"
-},
-{
-    "song": "Algo Contigo",
-    "length": "4:58",
-    "artist": "Rita Payés"
-},
-{
+  },
+  { "id": 4, "song": "Pink Moon", "length": "6:51", "artist": "Tash Sultana" },
+  { "id": 5, "song": "Movie", "length": "5:57", "artist": "Tom Misch" },
+  { "id": 6, "song": "Algo Contigo", "length": "4:58", "artist": "Rita Payés" },
+  {
+    "id": 7,
     "song": "Sabor a mi",
     "length": "3:16",
     "artist": "Monsieur Periné"
-},
-{
-    "song": "Roslyn",
-    "length": "4:50",
-    "artist": "Bon Iver ft. St. Vincent"
-},
-{
-    "song": "Vagalumes Cegos",
-    "length": "3:22",
-    "artist": "Cicero"
-},
-{
+  },
+  {
+    "id": 8,
     "song": "Self Control",
     "length": "4:10",
     "artist": "Frank Ocean"
-},
-{
+  },
+  {
+    "id": 9,
     "song": "this is what falling in love feels like",
     "length": "2:00",
     "artist": "JVKE"
-},
-{
-    "song": "Monster",
-    "length": "4:06",
-    "artist": "Dodie"
-},
-{
-    "song": "Golden Hour",
-    "length": "4:06",
-    "artist": "JVKE"
-}
+  },
+  { "id": 10, "song": "Monster", "length": "4:06", "artist": "Dodie" },
+  { "id": 11, "song": "Golden Hour", "length": "4:06", "artist": "JVKE" }
 ]
