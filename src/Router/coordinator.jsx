@@ -2,8 +2,8 @@ export const goToSetlist = (navigate) => {
     navigate('/setlist')
 }
 
-export const goToTranslation = (navigate) => {
-    navigate('/translation')
+export const goToTranslation = (navigate, id = 1) => {
+    navigate(`/translation/${id}`)
 }
 
 export const goToSpecificTranslation = (navigate, id) => {

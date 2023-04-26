@@ -1,9 +1,14 @@
-import Router from './Router/Router';
-import {Background} from './app.styles'
+import Router from "./Router/Router";
+import { Background } from "./app.styles";
+import CurrentSong from "./contexts/CurrentSong";
 function App() {
-  return <Background>
-   <Router/>
-  </Background>;
+  return (
+    <Background>
+      <CurrentSong>
+        <Router />
+      </CurrentSong>
+    </Background>
+  );
 }
 
 export default App;
