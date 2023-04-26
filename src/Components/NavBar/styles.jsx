@@ -24,7 +24,7 @@ export const GlassNavBar = styled.div`
 
 export const Icons = styled.div`
   & > svg > path {
-    fill: ${colors.lightPrimaryText};
+    fill: ${(props) => props.location ? colors.primaryPink : colors.lightPrimaryText};
   }
   height: 2.4rem;
 `;

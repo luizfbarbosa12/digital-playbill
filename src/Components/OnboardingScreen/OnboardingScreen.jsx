@@ -9,7 +9,6 @@ import {
   Topic
 } from "./styles";
 import musicNote from "../../Assets/music-note.svg";
-import chat from "../../Assets/chat.svg";
 import mic from "../../Assets/mic.svg";
 import playlist from "../../Assets/playlist.svg";
 import translate from "../../Assets/translate.svg";
@@ -20,8 +19,7 @@ const OnboardingScreen = () => {
     { icon: musicNote, text: "Músicas" },
     { icon: translate, text: "Traduções" },
     { icon: playlist, text: "Playlists" },
-    { icon: mic, text: "Artistas" },
-    { icon: chat, text: "Mensagens" },
+    { icon: mic, text: "Artistas" }
   ];
 
   return (
@@ -36,7 +34,7 @@ const OnboardingScreen = () => {
         <IconsWrapper>
           {icons.map((icon, index) => {
             return (
-              <Topic>
+              <Topic key={index}>
                 <Icon>
                   <img src={icon.icon} alt={`icon${index}`} />
                 </Icon>
