@@ -19,7 +19,11 @@ const Playlists = () => {
       icon: spotify,
       link: "https://open.spotify.com/playlist/5QWpKQ2RLQlAmAx77oBgbX?si=1zDryyAaRC2YSMka_5cXlw",
     },
-    { platform: "Deezer", icon: deezer, link: "" },
+    {
+      platform: "Deezer",
+      icon: deezer,
+      link: "https://deezer.page.link/bPk9aK5SXKukVAtL9",
+    },
     {
       platform: "Youtube",
       icon: youtube,
