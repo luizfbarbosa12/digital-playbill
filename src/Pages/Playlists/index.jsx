@@ -33,7 +33,6 @@ const Playlists = () => {
   return (
     <GlassBackground height={"74vh"} padding={"0"}>
       <Hero src={guiga} alt="Guiga" />
-
       <Container>
         <Title>
           Siga nossa playlist<ExclamationPoint>!</ExclamationPoint>

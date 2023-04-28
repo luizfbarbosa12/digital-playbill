@@ -17,3 +17,7 @@ export const goToPlaylists = (navigate) => {
 export const goToArtists = (navigate) => {
     navigate('/artists')
 }
+
+export const goToSpecificArtist = (navigate, artist) => {
+    navigate(`/artists/${artist}`)
+}

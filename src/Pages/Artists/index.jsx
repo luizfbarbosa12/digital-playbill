@@ -9,25 +9,28 @@ import guiga from "../../Assets/guiga-profile.jpg";
 import luiz from "../../Assets/luiz-profile.jpg";
 import renara from "../../Assets/renara.jpg";
 import samuel from "../../Assets/samuel.png";
+import { goToSpecificArtist } from "../../Router/coordinator";
+import { useNavigate } from "react-router-dom";
 
 const Artists = () => {
+  const navigate = useNavigate();
   const artists = [
-    { id: 1, picture: luiz, name: "Luiz Barbosa", role: "Cantor e ator" },
+    { id: "1", picture: luiz, name: "Luiz Barbosa", role: "Cantor e ator" },
+    { id: "2", picture: renara, name: "Maria Renara", role: "Dançarina" },
+    { id: "3", picture: samuel, name: "Samuel Stege", role: "Fotógrafo" },
     {
-      id: 2,
+      id: "4",
       picture: vitor,
       name: "Vitor Schmidlin",
       role: "Músico multi-instrumentista e cantor",
     },
     {
-      id: 3,
+      id: "5",
       picture: joao,
       name: "João Vitor",
       role: "Músico multi-instrumentista",
     },
-    { id: 4, picture: guiga, name: "Guiga Barsch", role: "Baixista" },
-    { id: 5, picture: renara, name: "Maria Renara", role: "Dançarina" },
-    { id: 6, picture: samuel, name: "Samuel Stege", role: "Fotógrafo" },
+    { id: "6", picture: guiga, name: "Guiga Barsch", role: "Baixista" },
   ];
   return (
     <GlassBackground height={"74vh"} padding={"0"}>
@@ -39,7 +42,12 @@ const Artists = () => {
       </TitleContainer>
       <Container>
         {artists.map((artist) => {
-          return <ArtistCard artist={artist} />;
+          return (
+            <ArtistCard
+              onClick={() => goToSpecificArtist(navigate, artist.id)}
+              artist={artist}
+            />
+          );
         })}
       </Container>
     </GlassBackground>

@@ -29,10 +29,16 @@
   },
   {
     "id": "9",
+    "song": "De novo",
+    "length": "3:24",
+    "artist": "Luiz Barbosa"
+  },
+  {
+    "id": "10",
     "song": "this is what falling in love feels like",
     "length": "2:00",
     "artist": "JVKE"
   },
-  { "id": "10", "song": "Monster", "length": "4:06", "artist": "Dodie" },
-  { "id": "11", "song": "Golden Hour", "length": "4:06", "artist": "JVKE" }
+  { "id": "11", "song": "Monster", "length": "4:06", "artist": "Dodie" },
+  { "id": "12", "song": "Golden Hour", "length": "4:06", "artist": "JVKE" }
 ]
