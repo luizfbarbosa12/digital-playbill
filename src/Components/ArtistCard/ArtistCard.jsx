@@ -7,7 +7,7 @@ import {
   Play,
 } from "./styles";
 import play from "../../Assets/play.svg";
-const ArtistCard = ({ artist }) => {
+const ArtistCard = ({ artist, onClick }) => {
   return (
     <CardWrapper>
       <ArtistPhoto src={artist.picture} alt="Artist photo" />

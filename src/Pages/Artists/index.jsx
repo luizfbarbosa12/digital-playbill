@@ -32,6 +32,7 @@ const Artists = () => {
     },
     { id: "6", picture: guiga, name: "Guiga Barsch", role: "Baixista" },
   ];
+
   return (
     <GlassBackground height={"74vh"} padding={"0"}>
       <Hero src={joao} alt={"Joao"} />
@@ -42,8 +43,10 @@ const Artists = () => {
       </TitleContainer>
       <Container>
         {artists.map((artist) => {
+          console.log(artists)
           return (
             <ArtistCard
+              key={artist.id}
               onClick={() => goToSpecificArtist(navigate, artist.id)}
               artist={artist}
             />

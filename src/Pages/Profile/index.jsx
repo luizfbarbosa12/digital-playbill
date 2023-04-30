@@ -9,12 +9,16 @@ import {
   ProfilePicture,
   UserInfoContainer,
   Bio,
-  BodyContent
+  BodyContent,
 } from "./styles";
 import dots from "../../Assets/dots.svg";
-import instagram from "../../Assets/instagram.png"
-
+import instagram from "../../Assets/instagram.png";
+import artistsInfo from "../../data/artists-info.json";
+import { useParams } from "react-router-dom";
 const Profile = () => {
+  const params = useParams();
+  const specificArtist = artistsInfo.find((artist) => artist.id === params.id);
+  console.log(specificArtist);
   return (
     <GlassBackground>
       <Header>
@@ -35,12 +39,9 @@ const Profile = () => {
           mollitia esse placeat deleniti.
         </Bio>
         <a href="">
-            <img src={instagram} alt="instagram-logo" />
-            
+          <img src={instagram} alt="instagram-logo" />
         </a>
-        <a href="">
-            portfolio
-        </a>
+        <a href="">portfolio</a>
       </BodyContent>
     </GlassBackground>
   );
