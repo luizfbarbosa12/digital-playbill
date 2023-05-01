@@ -11,7 +11,7 @@ import renara from "../../Assets/renara.jpg";
 import samuel from "../../Assets/samuel.png";
 import { goToSpecificArtist } from "../../Router/coordinator";
 import { useNavigate } from "react-router-dom";
-
+import joan from '../../Assets/joan.jpg'
 const Artists = () => {
   const navigate = useNavigate();
   const artists = [
@@ -31,6 +31,7 @@ const Artists = () => {
       role: "Músico multi-instrumentista",
     },
     { id: "6", picture: guiga, name: "Guiga Barsch", role: "Baixista" },
+    { id: "7", picture: joan, name: "Joan Castro", role: "Violinista" },
   ];
 
   return (
@@ -43,11 +44,10 @@ const Artists = () => {
       </TitleContainer>
       <Container>
         {artists.map((artist) => {
-          console.log(artists)
           return (
             <ArtistCard
               key={artist.id}
-              onClick={() => goToSpecificArtist(navigate, artist.id)}
+              clickFn={() => goToSpecificArtist(navigate, artist.id)}
               artist={artist}
             />
           );

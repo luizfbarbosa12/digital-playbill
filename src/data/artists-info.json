@@ -1,11 +1,12 @@
 [
   {
     "id": "1",
-    "bio": "Tenho 28 anos e comecei a me envolver na aere aos 22, quando comecei a estdar teatro musical. Desde então fiz várias peças e apresentações, mas só em 2021 comecei a me dedicar mais à musica, fiz algumas participações menores em eventos; hoje é meu primeiro show solo",
+    "bio": "Tenho 28 anos e comecei a me envolver com arte aos 22 profissionalmente, quando comecei a estudar teatro musical. Desde então fiz várias peças e apresentações, mas só em 2021 comecei a me dedicar mais à musica, fiz algumas participações menores em eventos; hoje é meu primeiro show solo",
     "name": "Luiz Barbosa",
     "user": "@luizf.barbosa",
     "instagram": "https://www.instagram.com/luizf.barbosa/",
-    "portfolio": ""
+    "portfolio": "",
+    "profile-picture": ""
   },
   {
     "id": "2",
@@ -41,10 +42,18 @@
   },
   {
     "id": "6",
-    "bio": "",
+    "bio": "Músico desde sempre tive a sorte de crescer numa família de músicos. Logo cedo bebi das fontes da mpb, bossa nova e rock 'n' roll. Com 10 anos iniciei no violão e ao 16 no contrabaixo. Amante de todas das artes hoje vivo da minha própria arte. Já participei em diversos projetos de músicos e bandas joinvilenses como SAMO, Luzzi Saito, Vitor Ramatis, Augusto Klug e atualmente sou professor de música, baixista profissional e músico free-lancer.",
     "name": "Guiga Barsch",
-    "user": "",
-    "instagram": "",
+    "user": "@guigavelvet",
+    "instagram": "https://www.instagram.com/guigavelvet/",
+    "portfolio": ""
+  },
+  {
+    "id": "7",
+    "bio": "",
+    "name": "Joan Castro",
+    "user": "@joancastronascimento",
+    "instagram": "https://www.instagram.com/joancastronascimento/",
     "portfolio": ""
   }
 ]

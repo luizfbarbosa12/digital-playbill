@@ -13,12 +13,12 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Profile />} />
+        <Route index element={<Onboarding />} />
         <Route path="/setlist" element={<Setlist />} />
         <Route path="/translation/:id?" element={<Translation />} />
         <Route path="/playlists" element={<Playlists />} />
         <Route path="/artists" element={<Artists />} />
-        <Route path="/artists/:name" element={<Artists />} />
+        <Route path="/artists/:id" element={<Profile />} />
       </Routes>
       <NavBar />
     </BrowserRouter>

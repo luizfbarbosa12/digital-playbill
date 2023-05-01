@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../colors/colors";
 export const Header = styled.header`
   position: relative;
-  height: 32.5rem;
+  height: 25rem;
   width: 100%;
   display: flex;
   gap: 4rem;
@@ -13,7 +13,7 @@ export const Header = styled.header`
 export const DottedBackground = styled.img`
   position: absolute;
   left: 50%;
-  top: 7rem;
+  top: 3rem;
   transform: translate(-50%, 0);
 `;
 
@@ -25,7 +25,12 @@ export const PictureFrame = styled.div`
   z-index: 1;
 `;
 
-export const ProfilePicture = styled.img``;
+export const ProfilePicture = styled.img`
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+`;
 
 export const UserInfoContainer = styled.div`
   display: flex;
@@ -45,9 +50,22 @@ export const ArtistUser = styled.h3`
 export const Bio = styled.p`
   font-size: 1.2rem;
   text-align: center;
-  transform: translateY(-30%);
+  width: 100%;
 `;
 
 export const BodyContent = styled.div`
-  width: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
 `;
+
+export const Links = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`
+
+export const FollowText = styled.p`
+  font-size: 1.6rem;
+`

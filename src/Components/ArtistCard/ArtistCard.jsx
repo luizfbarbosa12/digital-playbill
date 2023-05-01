@@ -7,9 +7,9 @@ import {
   Play,
 } from "./styles";
 import play from "../../Assets/play.svg";
-const ArtistCard = ({ artist, onClick }) => {
+const ArtistCard = ({ artist, clickFn }) => {
   return (
-    <CardWrapper>
+    <CardWrapper onClick={clickFn}>
       <ArtistPhoto src={artist.picture} alt="Artist photo" />
       <ArtistName>{artist.name}</ArtistName>
       <ArtistPosition>{artist.role}</ArtistPosition>

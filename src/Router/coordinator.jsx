@@ -18,6 +18,6 @@ export const goToArtists = (navigate) => {
     navigate('/artists')
 }
 
-export const goToSpecificArtist = (navigate, artist) => {
-    navigate(`/artists/${artist}`)
+export const goToSpecificArtist = (navigate, id) => {
+    navigate(`/artists/${id}`)
 }
