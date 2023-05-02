@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.js": "/static/js/main.ac14648c.js",
+    "static/media/vitor.jpg": "/static/media/vitor.97b0121ccd4084f7d2a1.jpg",
+    "static/media/luiz-profile.jpg": "/static/media/luiz-profile.20909f4909b9c454db35.jpg",
+    "static/media/guiga-profile.jpg": "/static/media/guiga-profile.91457b35ae7a8b9a7898.jpg",
+    "static/media/renara.jpg": "/static/media/renara.ccd72706a0a2015e1b88.jpg",
+    "static/media/samuel.png": "/static/media/samuel.1e391507242fcfa6f7c0.png",
+    "static/media/guiga-app.png": "/static/media/guiga-app.ac08e0fbf8adace808f5.png",
+    "static/media/luiz-app.png": "/static/media/luiz-app.0c90e06a52400ac90d76.png",
+    "static/media/joao-app.png": "/static/media/joao-app.be768fcfdacec0b3dadd.png",
+    "static/media/joan.jpg": "/static/media/joan.c1b4ebbabbbfe74c0e1b.jpg",
+    "static/media/OpenSauceOne-Italic.ttf": "/static/media/OpenSauceOne-Italic.865f6efc0978311dbd85.ttf",
+    "static/media/OpenSauceOne-SemiBold.ttf": "/static/media/OpenSauceOne-SemiBold.9c9c812f7f7a89e67d5f.ttf",
+    "static/media/OpenSauceOne-Bold.ttf": "/static/media/OpenSauceOne-Bold.b61d766d8e29bb5614f0.ttf",
+    "static/media/OpenSauceOne-Regular.ttf": "/static/media/OpenSauceOne-Regular.ad899c4b043bde24150b.ttf",
+    "static/media/previous.png": "/static/media/previous.d17f57671ed2fe877c59.png",
+    "static/media/translate.svg": "/static/media/translate.3016cff7a1c71882a08202f691b51353.svg",
+    "static/media/mic.svg": "/static/media/mic.c379eb3d25ed873b4277058058f56d50.svg",
+    "static/media/playlist.svg": "/static/media/playlist.9b007d67f8f0b881050ece36bd83b3ba.svg",
+    "static/media/spotify.svg": "/static/media/spotify.627c594f0d420b12fbf249090a435cb2.svg",
+    "static/media/music-note.svg": "/static/media/music-note.88a8e071ff0c525fe075a48abe2f294b.svg",
+    "static/media/dots.svg": "/static/media/dots.5013a239d49867790fb9e8ec940416ff.svg",
+    "static/media/deezer.svg": "/static/media/deezer.df43899967c543ccf785f4d19750be6d.svg",
+    "static/media/youtube.svg": "/static/media/youtube.dcede08de928c0b19073b0e6f55939f7.svg",
+    "index.html": "/index.html",
+    "static/media/play.svg": "/static/media/play.6a96817d59d56f399e4466a65a14e21b.svg",
+    "main.ac14648c.js.map": "/static/js/main.ac14648c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ac14648c.js"
+  ]
+}
