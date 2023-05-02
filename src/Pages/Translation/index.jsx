@@ -9,7 +9,7 @@ const Translation = () => {
   const params = useParams();
 
   const specificLyric = lyrics.find((lyric) => lyric.id === params.id);
-  
+  console.log(specificLyric)
   const mergeLyricsAndTranslation = () => {
     let lyricsTranslation = [];
     for (

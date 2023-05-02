@@ -42,6 +42,7 @@ const Profile = () => {
   return (
     <GlassBackground>
       <Header>
+        {/* inserir botao de voltar aqui */}
         <DottedBackground src={dots} alt="dots" />
         <PictureFrame>
           <ProfilePicture src={findProfilePicture.picture} alt="artist-photo" />
