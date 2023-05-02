@@ -6,7 +6,7 @@ export const Glass = styled.div`
   flex-direction: column;
   padding: ${(props) => props.padding || '1.6rem'};;
   align-items: center;
-  min-height: ${(props) => props.height || '70vh'};
+  min-height: ${(props) => props.height || '72vh'};
   width: 89vw;
   background: linear-gradient(
     172.79deg,
