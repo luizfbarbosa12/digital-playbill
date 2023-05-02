@@ -48,7 +48,7 @@ export const ArtistUser = styled.h3`
 `;
 
 export const Bio = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: center;
   width: 100%;
 `;
@@ -68,4 +68,12 @@ export const Links = styled.div`
 
 export const FollowText = styled.p`
   font-size: 1.6rem;
+`
+
+export const PreviousBtn = styled.img`
+  height: 2.4rem;
+  width: 2.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
 `

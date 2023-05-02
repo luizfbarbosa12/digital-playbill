@@ -57,8 +57,8 @@ export const Container = styled.div`
 `;
 
 export const GreenCircle = styled.div`
-  height: 15rem;
-  width: 15rem;
+  height: 35rem;
+  width: 35rem;
   border-radius: 50%;
   transform: translate(155px, -20px);
   background: linear-gradient(
@@ -74,7 +74,7 @@ export const GreenCircle = styled.div`
 export const Diamond = styled.div`
   height: 15rem;
   width: 15rem;
-  border-radius: 1.6rem;
+  border-radius: 50%;
   background: linear-gradient(45deg, ${colors.primaryGreen} 0%, #70a884 35%);
   transform: translate(30px, 100px) rotate(131deg);
   box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.2);
@@ -82,8 +82,8 @@ export const Diamond = styled.div`
 `;
 
 export const Triangle = styled.div`
-  height: 17rem;
-  width: 17rem;
+  height: 15rem;
+  width: 15rem;
   border-radius: 50%;
   background: linear-gradient(
     45deg,
@@ -96,23 +96,3 @@ export const Triangle = styled.div`
   animation: ${floatTriangle} 4s ease-in-out infinite;
 `;
 
-export const StartButton = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 6rem;
-  width: 6rem;
-  backdrop-filter: blur(18px);
-  border: 1px solid rgba(230, 230, 230, 0.218);
-  box-shadow: 0px 4px 24px 2px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(
-    172.79deg,
-    rgba(255, 255, 255, 0.05) 4.99%,
-    rgba(255, 255, 255, 0.2) 92.05%
-  );
-  border-radius: 50%;
-  position: absolute;
-  bottom: 10rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
-`;

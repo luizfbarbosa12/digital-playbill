@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Welcome = styled.h1`
   font-weight: 700;
   font-size: 4.2rem;
+  transition: opacity 2s ease;
+  opacity: ${(props) => props.slowRender ? 1 : 0};
 `;
 
 export const GuideTextArea = styled.div`
@@ -18,12 +20,16 @@ export const ThankYou = styled.h3`
   display: flex;
   text-align: center;
   margin: 1.2rem;
+  transition: opacity 2s ease;
+  opacity: ${(props) => props.slowRender ? 1 : 0};
 `;
 
 export const GuideText = styled.p`
   font-size: 1.6rem;
   text-align: center;
   margin: 1.2rem;
+  transition: opacity 2s ease;
+  opacity: ${(props) => props.slowRender ? 1 : 0};
 `;
 
 export const IconsWrapper = styled.div`
@@ -32,6 +38,8 @@ export const IconsWrapper = styled.div`
   row-gap: 3rem;
   flex-wrap: wrap;
   justify-content: center;
+  transition: opacity 2s ease;
+  opacity: ${(props) => props.slowRender ? 1 : 0};
 `
 export const Topic = styled.div`
   display: flex;
