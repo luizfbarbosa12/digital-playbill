@@ -48,7 +48,7 @@ export const ArtistUser = styled.h3`
 `;
 
 export const Bio = styled.p`
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   text-align: center;
   width: 100%;
 `;
