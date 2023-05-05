@@ -26,6 +26,7 @@ import samuel from "../../Assets/samuel.png";
 import joao from "../../Assets/joao-app.png";
 import joan from "../../Assets/joan.jpg";
 import previous from '../../Assets/previous.png'
+import soma from '../../Assets/soma.jpg'
 const Profile = () => {
   const navigate = useNavigate();
   const params = useParams();
@@ -37,6 +38,7 @@ const Profile = () => {
     { id: "5", picture: joao },
     { id: "6", picture: guiga },
     { id: "7", picture: joan },
+    { id: "8", picture: soma },
   ];
   const specificArtist = artistsInfo.find((artist) => artist.id === params.id);
   const findProfilePicture = profilePictures.find(

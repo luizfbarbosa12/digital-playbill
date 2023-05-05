@@ -12,6 +12,8 @@ import samuel from "../../Assets/samuel.png";
 import { goToSpecificArtist } from "../../Router/coordinator";
 import { useNavigate } from "react-router-dom";
 import joan from '../../Assets/joan.jpg'
+import soma from '../../Assets/soma.jpg'
+
 const Artists = () => {
   const navigate = useNavigate();
   const artists = [
@@ -32,6 +34,7 @@ const Artists = () => {
     },
     { id: "6", picture: guiga, name: "Guiga Barsch", role: "Baixista" },
     { id: "7", picture: joan, name: "Joan Castro", role: "Violinista" },
+    { id: "8", picture: soma, name: "SOMA", role: "Apoiador" },
   ];
 
   return (
