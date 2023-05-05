@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.393eb97b.js",
+    "main.js": "/static/js/main.47d75978.js",
     "static/media/vitor.jpg": "/static/media/vitor.97b0121ccd4084f7d2a1.jpg",
     "static/media/luiz-profile.jpg": "/static/media/luiz-profile.20909f4909b9c454db35.jpg",
     "static/media/guiga-profile.jpg": "/static/media/guiga-profile.91457b35ae7a8b9a7898.jpg",
@@ -14,6 +14,7 @@
     "static/media/OpenSauceOne-SemiBold.ttf": "/static/media/OpenSauceOne-SemiBold.9c9c812f7f7a89e67d5f.ttf",
     "static/media/OpenSauceOne-Bold.ttf": "/static/media/OpenSauceOne-Bold.b61d766d8e29bb5614f0.ttf",
     "static/media/OpenSauceOne-Regular.ttf": "/static/media/OpenSauceOne-Regular.ad899c4b043bde24150b.ttf",
+    "static/media/soma.jpg": "/static/media/soma.8476018fdf862cc64b4e.jpg",
     "static/media/previous.png": "/static/media/previous.d17f57671ed2fe877c59.png",
     "static/media/translate.svg": "/static/media/translate.3016cff7a1c71882a08202f691b51353.svg",
     "static/media/mic.svg": "/static/media/mic.c379eb3d25ed873b4277058058f56d50.svg",
@@ -25,9 +26,9 @@
     "static/media/youtube.svg": "/static/media/youtube.dcede08de928c0b19073b0e6f55939f7.svg",
     "index.html": "/index.html",
     "static/media/play.svg": "/static/media/play.6a96817d59d56f399e4466a65a14e21b.svg",
-    "main.393eb97b.js.map": "/static/js/main.393eb97b.js.map"
+    "main.47d75978.js.map": "/static/js/main.47d75978.js.map"
   },
   "entrypoints": [
-    "static/js/main.393eb97b.js"
+    "static/js/main.47d75978.js"
   ]
 }
