@@ -1,10 +1,4 @@
 [
-  {
-    "id": "1",
-    "song": "Bad Religion",
-    "length": "2:55",
-    "artist": "Frank Ocean"
-  },
   { "id": "2", "song": "Youth", "length": "4:13", "artist": "Daughter" },
   {
     "id": "3",
@@ -12,14 +6,29 @@
     "length": "3:34",
     "artist": "Aurora feat. Pomme"
   },
-  { "id": "4", "song": "Pink Moon", "length": "6:51", "artist": "Tash Sultana" },
-  { "id": "5", "song": "Movie", "length": "5:57", "artist": "Tom Misch" },
-  { "id": "6", "song": "Algo Contigo", "length": "4:58", "artist": "Rita Payés" },
+  {
+    "id": "4",
+    "song": "Pink Moon",
+    "length": "6:51",
+    "artist": "Tash Sultana"
+  },
+  {
+    "id": "5",
+    "song": "Still feel it all",
+    "length": "3:21",
+    "artist": "MARO"
+  },
+  {
+    "id": "6",
+    "song": "Algo Contigo",
+    "length": "4:58",
+    "artist": "Rita Payés"
+  },
   {
     "id": "7",
-    "song": "Sabor a mi",
-    "length": "3:16",
-    "artist": "Monsieur Periné"
+    "song": "Vagalumes Cegos",
+    "length": "3:22",
+    "artist": "Cicero Rosa Lins"
   },
   {
     "id": "8",
@@ -33,12 +42,13 @@
     "length": "3:24",
     "artist": "Luiz Barbosa"
   },
-  {
-    "id": "10",
-    "song": "this is what falling in love feels like",
-    "length": "2:00",
-    "artist": "JVKE"
-  },
+
   { "id": "11", "song": "Monster", "length": "4:06", "artist": "Dodie" },
-  { "id": "12", "song": "Golden Hour", "length": "4:06", "artist": "JVKE" }
+  { "id": "12", "song": "Golden Hour", "length": "4:06", "artist": "JVKE" },
+  {
+    "id": "13",
+    "song": "Viagem",
+    "length": "2:30",
+    "artist": "Juan Maia"
+  }
 ]

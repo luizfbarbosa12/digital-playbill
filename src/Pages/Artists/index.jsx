@@ -18,8 +18,6 @@ const Artists = () => {
   const navigate = useNavigate();
   const artists = [
     { id: "1", picture: luiz, name: "Luiz Barbosa", role: "Cantor e ator" },
-    { id: "2", picture: renara, name: "Maria Renara", role: "Dançarina" },
-    { id: "3", picture: samuel, name: "Samuel Stege", role: "Fotógrafo" },
     {
       id: "4",
       picture: vitor,
@@ -31,10 +29,7 @@ const Artists = () => {
       picture: joao,
       name: "João Vitor",
       role: "Músico multi-instrumentista",
-    },
-    { id: "6", picture: guiga, name: "Guiga Barsch", role: "Baixista" },
-    { id: "7", picture: joan, name: "Joan Castro", role: "Violinista" },
-    { id: "8", picture: soma, name: "SOMA", role: "Apoiador" },
+    }
   ];
 
   return (
